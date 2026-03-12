@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
-                "mode": "source",
+                "file": "Hidden/Integer Programming.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1-Introduction Of Optimiztion"
+              "title": "Integer Programming"
             }
           }
         ]
@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -205,12 +205,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fbece1d079812de6",
+  "active": "ca058614e14718df",
   "lastOpenFiles": [
-    "Optimiztion Techniques/nlp-local-global.png",
-    "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
-    "Hidden/Nonlinear Programming.md",
+    "Optimiztion Techniques/concepts",
     "Hidden/Linear Programming.md",
+    "Hidden/Nonlinear Programming.md",
+    "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
+    "Optimiztion Techniques/nlp-local-global.png",
     "Hidden/Integer Programming.md",
     "Hidden",
     "Pasted image 20260312205237.png",

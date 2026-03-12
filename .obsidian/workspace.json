@@ -11,12 +11,14 @@
             "id": "fbece1d079812de6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Optimiztion Techniques/Hand Written Notes/Lecture 1-Introduction Of Optimiztion/Page 4.jpeg"
+                "file": "Optimiztion Techniques/Lectures/Lecture 1-Introduction Of Optimiztion.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Page 4"
+              "icon": "lucide-file",
+              "title": "Lecture 1-Introduction Of Optimiztion"
             }
           }
         ]
@@ -203,8 +205,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ca058614e14718df",
+  "active": "fbece1d079812de6",
   "lastOpenFiles": [
+    "Optimiztion Techniques/Hand Written Notes/Lecture 1-Introduction Of Optimiztion/WhatsApp Image 2026-03-12 at 3.18.54 PM (4).jpeg",
+    "Optimiztion Techniques/Material/Lecture 1",
     "Optimiztion Techniques/Codes/Week 4/Untitled.ipynb",
     "Optimiztion Techniques/Codes/Week 4",
     "Optimiztion Techniques/Codes/Untitled Folder",
@@ -215,18 +219,15 @@
     "Optimiztion Techniques/Hand Written Notes/Lecture 1-Introduction Of Optimiztion/Page 2.jpeg",
     "Optimiztion Techniques/Hand Written Notes/Lecture 1-Introduction Of Optimiztion/Page 1.jpeg",
     "Optimiztion Techniques/Hand Written Notes/Lecture 1-Introduction Of Optimiztion.md",
-    "Optimiztion Techniques/Hand Written Notes/Lecture 1-Introduction Of Optimiztion/WhatsApp Image 2026-03-12 at 3.18.54 PM (4).jpeg",
     "Optimiztion Techniques/Hand Written Notes/Lecture 1-Introduction Of Optimiztion",
     "Optimiztion Techniques/Lectures/Lecture 1-Introduction Of Optimiztion.md",
     "Optimiztion Techniques/Hand Written Notes",
     "Optimiztion Techniques/concepts/Integer Programming.md",
-    "Optimiztion Techniques/Material/week01_introduction.pdf",
+    "Optimiztion Techniques/Material/Lecture 1/week01_introduction.pdf",
     "Optimiztion Techniques/Material",
-    "Optimiztion Techniques/Lectures",
-    "Optimiztion Techniques/concepts",
     "Optimiztion Techniques/concepts/Linear Programming.md",
     "Optimiztion Techniques/concepts/Nonlinear Programming.md",
-    "Optimiztion Techniques/Material/nlp-local-global.png",
+    "Optimiztion Techniques/Material/Lecture 1/nlp-local-global.png",
     "Pasted image 20260312205237.png",
     "Welcome.md"
   ]

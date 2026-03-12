@@ -108,6 +108,54 @@ Types:
 
 # [Integer Programming (IP)](obsidian://open?vault=MyObsidianStudy&file=Optimiztion%20Techniques%2FInteger%20Programming)
 
+# Types of Optimization Problems
+
+Comparison between LP, NLP and IP:
+
+<table style="border-collapse:collapse;width:100%;text-align:center;">
+<tr style="background:#2b2b2b;color:#c792ea;">
+<th>Aspect</th>
+<th>LP</th>
+<th>NLP</th>
+<th>IP</th>
+</tr>
+
+<tr>
+<td>Linearity</td>
+<td>Linear</td>
+<td>Nonlinear</td>
+<td>Linear / Nonlinear</td>
+</tr>
+
+<tr style="background:#262626;">
+<td>Variables</td>
+<td>Continuous</td>
+<td>Continuous</td>
+<td>Integer</td>
+</tr>
+
+<tr>
+<td>Difficulty</td>
+<td>Easy</td>
+<td>Medium</td>
+<td>Hard</td>
+</tr>
+
+<tr style="background:#262626;">
+<td>Solve Time</td>
+<td>Fast</td>
+<td>Medium</td>
+<td>Can be slow</td>
+</tr>
+
+<tr>
+<td>Global Optimum</td>
+<td style="color:#82aaff;">Guaranteed</td>
+<td style="color:#ffcb6b;">Maybe not</td>
+<td style="color:#82aaff;">Guaranteed*</td>
+</tr>
+</table>
+
 ---
 
 # Continuous vs Discrete Variables

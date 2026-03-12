@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hidden/Nonlinear Programming.md",
+                "file": "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nonlinear Programming"
+              "title": "Lecture 1-Introduction Of Optimiztion"
             }
           }
         ]
@@ -207,11 +207,11 @@
   },
   "active": "fbece1d079812de6",
   "lastOpenFiles": [
+    "Optimiztion Techniques/nlp-local-global.png",
+    "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
+    "Hidden/Nonlinear Programming.md",
     "Hidden/Linear Programming.md",
     "Hidden/Integer Programming.md",
-    "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
-    "Optimiztion Techniques/nlp-local-global.png",
-    "Hidden/Nonlinear Programming.md",
     "Hidden",
     "Pasted image 20260312205237.png",
     "Welcome.md",

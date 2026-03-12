@@ -11,10 +11,14 @@
             "id": "c44858fae6dd43f9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Lecture 1-Introduction Of Optimiztion"
             }
           }
         ]
@@ -201,8 +205,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c44858fae6dd43f9",
+  "active": "ca058614e14718df",
   "lastOpenFiles": [
+    "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
     "Welcome.md",
     "Deep Learning",
     "Math Foundation",

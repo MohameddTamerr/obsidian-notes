@@ -93,11 +93,10 @@ x ≥ 0
 # Types of Optimization Problems
 
 Optimization  
-│  
-├── Linear  
-├── Nonlinear  
-└── Integer
-
+Types:
+- [[Linear Programming]]
+- [[Nonlinear Programming]]
+- [[Integer Programming]]
 ---
 
 # [Linear Programming (LP)](obsidian://open?vault=MyObsidianStudy&file=Linear%20Programming)
@@ -107,23 +106,7 @@ Optimization
 
 ---
 
-# Integer Programming (IP)
-
-Decision variables must be **integers**
-
-Example
-
-xi = 1   project selected  
-xi = 0   project not selected
-
-Applications
-
-- job scheduling
-    
-- facility location
-    
-- network design
-    
+# [Integer Programming (IP)](obsidian://open?vault=MyObsidianStudy&file=Optimiztion%20Techniques%2FInteger%20Programming)
 
 ---
 
@@ -279,10 +262,3 @@ Decision variables
 Objective function  
 Constraints
 
-# Optimization
-
-Types:
-- [[Linear Programming]]
-- [[Nonlinear Programming]]
-- [[Integer Programming]]
-	

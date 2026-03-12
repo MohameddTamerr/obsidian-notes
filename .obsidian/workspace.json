@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
+                "file": "Hidden/Nonlinear Programming.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 1-Introduction Of Optimiztion"
+              "title": "Nonlinear Programming"
             }
           }
         ]
@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,9 +207,9 @@
   },
   "active": "fbece1d079812de6",
   "lastOpenFiles": [
+    "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
     "Hidden/Linear Programming.md",
     "Hidden/Integer Programming.md",
-    "Optimiztion Techniques/Lecture 1-Introduction Of Optimiztion.md",
     "Hidden",
     "Hidden/Nonlinear Programming.md",
     "Pasted image 20260312205237.png",

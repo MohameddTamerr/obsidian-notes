@@ -1,27 +1,24 @@
+
+
 ## What is Optimization
 
-Optimization = finding the **best solution** among all possible solutions.
+> Optimization = finding the **best solution among all possible solutions**
 
-Example daily decisions:
-
+### Simple daily examples
 - fastest route to university
-    
 - cheapest ride
-    
-- best schedule for study
-    
+- best study schedule
 
 ---
 
 ## Key Components of Optimization
 
 ### 1️⃣ Decision Variables
-
-Things we can control.
+Things we can **control or decide**.
 
 Example
 
-x = number of lemonade cups
+`x = number of lemonade cups`
 
 ---
 
@@ -30,283 +27,250 @@ x = number of lemonade cups
 What we want to **maximize or minimize**
 
 Examples
-
 - maximize profit
-    
 - minimize cost
-    
 - minimize time
-    
 
 General form
 
-max / min  f(x1, x2, ... , xn)
+```
+max / min   f(x1 , x2 , ... , xn)
+```
 
 ---
 
 ### 3️⃣ Constraints
 
-Limitations of the problem.
+Limitations or restrictions.
 
 Examples
-
 - limited resources
-    
 - time limits
-    
-- capacity
-    
+- production capacity
 
 General form
 
-g1(x1,...xn) ≤ b1  
+```
+g1(x1,...xn) ≤ b1
 g2(x1,...xn) ≤ b2
+```
 
 ---
 
-# Example – Lemonade Problem
+# Example — Lemonade Problem
 
-Decision variable
+### Decision Variable
 
+```
 x = number of lemonade cups
+```
 
 Selling price = 5  
-Cost = 2
+Cost per cup = 2
 
-Profit per cup
+### Profit
 
-5x − 2x = 3x
+```
+Profit = 5x − 2x
+Profit = 3x
+```
 
-Objective
+### Objective Function
 
+```
 max Z = 3x
+```
 
-Constraints
+### Constraints
 
-0.1x ≤ 10     (sugar)  
-0.5x ≤ 50     (lemons)  
-0.02x ≤ 2     (time)  
+```
+0.1x ≤ 10     (sugar)
+0.5x ≤ 50     (lemons)
+0.02x ≤ 2     (time)
 x ≥ 0
+```
 
 ---
 
 # Types of Optimization Problems
 
-Optimization  
-Types:
+Optimization types:
+
 - [[Linear Programming]]
 - [[Nonlinear Programming]]
 - [[Integer Programming]]
----
-
-# [Linear Programming (LP)](obsidian://open?vault=MyObsidianStudy&file=Linear%20Programming)
----
-
-# [ Nonlinear Programming (NLP)](obsidian://open?vault=MyObsidianStudy&file=Nonlinear%20Programming)
 
 ---
 
-# [Integer Programming (IP)](obsidian://open?vault=MyObsidianStudy&file=Optimiztion%20Techniques%2FInteger%20Programming)
+# Comparison of LP, NLP, and IP
 
-# Types of Optimization Problems
-
-Comparison between LP, NLP and IP:
-
-<table style="border-collapse:collapse;width:100%;text-align:center;">
-<tr style="background:#2b2b2b;color:#c792ea;">
-<th>Aspect</th>
-<th>LP</th>
-<th>NLP</th>
-<th>IP</th>
-</tr>
-
-<tr>
-<td>Linearity</td>
-<td>Linear</td>
-<td>Nonlinear</td>
-<td>Linear / Nonlinear</td>
-</tr>
-
-<tr style="background:#262626;">
-<td>Variables</td>
-<td>Continuous</td>
-<td>Continuous</td>
-<td>Integer</td>
-</tr>
-
-<tr>
-<td>Difficulty</td>
-<td>Easy</td>
-<td>Medium</td>
-<td>Hard</td>
-</tr>
-
-<tr style="background:#262626;">
-<td>Solve Time</td>
-<td>Fast</td>
-<td>Medium</td>
-<td>Can be slow</td>
-</tr>
-
-<tr>
-<td>Global Optimum</td>
-<td style="color:#82aaff;">Guaranteed</td>
-<td style="color:#ffcb6b;">Maybe not</td>
-<td style="color:#82aaff;">Guaranteed*</td>
-</tr>
-</table>
+| Aspect | LP | NLP | IP |
+|------|------|------|------|
+| Linearity | Linear | Nonlinear | Linear / Nonlinear |
+| Variables | Continuous | Continuous | Integer |
+| Difficulty | Easy | Medium | Hard |
+| Solve Time | Fast | Medium | Can be slow |
+| Global Optimum | Guaranteed | Maybe not | Guaranteed* |
 
 ---
 
 # Continuous vs Discrete Variables
 
-### Continuous
+| Type | Meaning | Example |
+|-----|-----|-----|
+| Continuous | any real value | 2.5 liters |
+| Discrete | integers only | 3 workers |
 
-Any real value
-
-Examples
-
+### Continuous examples
 - production volume
-    
 - temperature
-    
 - investment
-    
 
-Example
-
-2.5 liters
-
----
-
-### Discrete
-
-Integer values only
-
-Examples
-
+### Discrete examples
 - number of workers
-    
 - number of flights
-    
-- yes / no decisions
-    
-
-Example
-
-3 workers
-
-(not 2.5 workers)
+- yes/no decisions
 
 ---
 
 # Steps to Formulate an Optimization Problem
 
-1️⃣ Identify decision variables
+1. Identify **decision variables**
+2. Define **objective function**
+3. Write **constraints**
+4. Check **mathematical correctness**
 
-2️⃣ Define objective function
-
-3️⃣ Write constraints
-
-4️⃣ Check mathematical correctness
-
-Important idea
-
-Hardest part = formulating the problem
+> [!important]
+> Hardest part = **formulating the problem correctly**
 
 ---
 
 # Common Modeling Mistakes
 
-- forgetting **x ≥ 0**
-    
-- inconsistent units (kg vs pounds)
-    
-- missing constraints
-    
-- making the model too complex
-    
+| Mistake | Example |
+|------|------|
+| Forgetting non-negativity | x ≥ 0 |
+| Inconsistent units | kg vs pounds |
+| Missing constraints | unrealistic solution |
+| Overcomplicated model | hard to solve |
 
-Rule
-
-Model should be simple but realistic
+> [!tip]
+> A good model should be **simple but realistic**
 
 ---
 
 # Real Applications
 
-### Google Search
+## Google Search
 
 Goal
 
+```
 maximize user satisfaction
+```
 
 Constraint
 
-response time < 0.5 sec
+```
+response time < 0.5 seconds
+```
 
 ---
 
-### Amazon Delivery
+## Amazon Delivery
 
 Objective
 
-minimize distance
+```
+minimize travel distance
+```
 
 Constraints
-
 - truck capacity
-    
 - delivery time
-    
 - traffic
-    
 
 Problem name
 
+```
 Vehicle Routing Problem (VRP)
+```
 
 ---
 
-### Netflix Recommendations
+## Netflix Recommendations
 
 Goal
 
+```
 maximize viewing time
+```
 
 Constraints
-
 - user preferences
-    
 - available content
-    
 
 ---
 
 # Optimization in AI
 
-Training a neural network = optimization problem
+Training a neural network is an **optimization problem**.
 
 Example
 
+```
 min L(θ)
+```
 
 Where
 
-θ = parameters  
+```
+θ = model parameters
 L = loss function
+```
 
-Common method
+Common algorithm
 
+```
 Gradient Descent
+```
 
 ---
 
 # Key Ideas
 
-Optimization problems always include
+Optimization problems always include:
 
-Decision variables  
-Objective function  
-Constraints
+- Decision Variables
+- Objective Function
+- Constraints
 
+Main types:
+
+- Linear Programming (LP)
+- Nonlinear Programming (NLP)
+- Integer Programming (IP)
+
+---
+
+# Concept Map
+
+```
+Optimization
+│
+├── Decision Variables
+├── Objective Function
+└── Constraints
+```
+
+---
+
+# Optimization Types Map
+
+```
+Optimization
+│
+├── Linear Programming
+├── Nonlinear Programming
+└── Integer Programming
+```

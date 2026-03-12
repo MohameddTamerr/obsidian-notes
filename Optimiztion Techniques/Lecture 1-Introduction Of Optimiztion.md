@@ -100,65 +100,10 @@ Optimization
 
 ---
 
-# Linear Programming (LP)
-
-Conditions
-
-- objective function **linear**
-    
-- constraints **linear**
-    
-- variables **continuous**
-    
-
-Example
-
-max 3x1 + 5x2  
-  
-s.t  
-x1 + 2x2 ≤ 10  
-2x1 + x2 ≤ 12  
-x1 , x2 ≥ 0
-
-Applications
-
-- production planning
-    
-- resource allocation
-    
-- portfolio management
-    
-- diet problems
-    
-
+# [Linear Programming (LP)](obsidian://open?vault=MyObsidianStudy&file=Linear%20Programming)
 ---
 
-# Nonlinear Programming (NLP)
-
-Used when
-
-objective OR constraints are nonlinear
-
-Example
-
-min x1² + x2²  
-  
-s.t  
-x1 + x2 = 1  
-x1 , x2 ≥ 0
-
-Applications
-
-- machine learning
-    
-- robotics
-    
-- chemical processes
-    
-
-Problem
-
-finding global optimum is difficult
+# [ Nonlinear Programming (NLP)](obsidian://open?vault=MyObsidianStudy&file=Nonlinear%20Programming)
 
 ---
 

@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -205,7 +205,7 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ca058614e14718df",
+  "active": "bdc8151ef35c7298",
   "lastOpenFiles": [
     "Optimiztion Techniques/Codes/Week 2/Untitled.ipynb",
     "Optimiztion Techniques/Codes/Week 2",
